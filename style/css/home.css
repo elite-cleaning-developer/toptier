@@ -1,0 +1,34 @@
+body, html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    background: hsla(216, 3%, 70%, 1);
+    flex-direction: column;
+
+background: linear-gradient(90deg, hsla(216, 3%, 70%, 1) 0%, hsla(231, 85%, 24%, 1) 92%);
+
+background: -moz-linear-gradient(90deg, hsla(216, 3%, 70%, 1) 0%, hsla(231, 85%, 24%, 1) 92%);
+
+background: -webkit-linear-gradient(90deg, rgb(240, 240, 240) 0%, hsla(231, 85%, 24%, 1) 92%);
+}
+
+
+::-webkit-scrollbar {
+    width: .5em;
+  }
+   
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #333;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 50px;
+
+  }
