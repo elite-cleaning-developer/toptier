@@ -9,7 +9,9 @@
     <script src="js/pageLoad.js"></script>
     <script src="js/anim.js"></script>
      <link rel="stylesheet" href="style/css/home.css" />
-     <link rel="stylesheet" href="style/css/hm.css" />
+     <link rel="stylesheet" href="style/css/header.css" />
+     <link rel="stylesheet" href="style/css/services.css" />
+     <link rel="stylesheet" href="style/css/pricing.css" />
     <title>Elite Cleaning</title>
 </head>
 
@@ -68,7 +70,17 @@
                 <div id="fixedBox">
                     <div id="fixedImgCont"><img id="fixedImg" src="style/assets/img/clean.png">
                         <div id="fixedLogo"><div id="topText">
-                            <p id="sloganText">PROFESSIONAL HOUSE CLEANING SERVICES IN WISCONSIN</p>
+                            <div class="loader">
+                                <p>Professional</p>
+                                <div class="words">
+                                    <span class="word"></span>
+                                    <span class="word">House</span>
+                                    <span class="word">Window</span>
+                                    <span class="word">Gutter</span>
+                                    <span class="word">Commercial</span>
+                                </div>
+                                <p>Cleaning</p>
+                         </div>
                         <span id="underSlogan">We pride ourselves on our attention to detail and our commitment to providing excellent customer service. We know that your home is your sanctuary, and we will treat it with the care and respect it deserves. Our cleaners are trained to work efficiently and effectively, ensuring that your home is cleaned to the highest standard in the shortest amount of time possible.</span>
                         </div></div>
 
@@ -79,21 +91,35 @@
                  <!-- Services --> 
                 <div id="servicesContainer">
                     <div id="servicesTextContainer">
-                        <span id="servicesText">OUR SERVICES<span id="srv">:</span></span>
+                        <span id="servicesText">OUR SERVICES</span>
                     </div>
                     <div id="servicesBigBox">
                         <div class="box">
+                            <div class="cardBox">
                         <article class="card">
                             <div class="temporary_text">
                                 <img class="srvImg" src="style/assets/img/houseServ.jpg">
                             </div>
                         <div class="card_content">
-                            <span class="card_title">Home Cleaning</span>
+                            <span class="card_title">House Cleaning</span>
                                 <span class="card_subtitle">Hover to view more...</span>
                                 <div class="card_description"><li><div class="dot"></div> Vacuuming</li><li><div class="dot"></div> Mopping</li><li><div class="dot"></div> Dusting</li><li><div class="dot"></div> Surface Whiping</li><li><div class="dot"></div> Orginizing</li></div>
                             
                         </div>
                         </article>
+                        <div class="servPriceBox">
+                            <p class="priceLogo">Home cleaning</p>
+                            <p class="priceText">House cleaning provides professional services according to this prices:</p>
+                            <div id="houseList">
+                                <li>Hard Floor Cleaning - <span class="price">$5/ft.</span></li>
+                                <li>Carpet Vacuuming - <span class="price">$8/ft.</span></li>
+                                <li>Carpet Vacuuming (With Water) - <span class="price">$15/ft.</span></li>
+                                <li>Deep House Cleaning <span class="price">$150 - $1,500.</li>
+                                <li>Deep House Cleaning <span class="price">$150 - $1,500.</li>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="cardBox">
                         <article class="card">
                             <div class="temporary_text">
                                 <img class="srvImg" src="style/assets/img/windowServ.jpg">
@@ -102,12 +128,19 @@
                         <div class="card_content">
                             <span class="card_title">Window Cleaning</span>
                                 <span class="card_subtitle">Hover to view more...</span>
-                                <p class="card_description">Lorem ipsum dolor, sit amet  expedita exercitationem recusandae aut dolor tempora aperiam itaque possimus at, cupiditate earum, quae repudiandae aspernatur? Labore minus soluta consequatur placeat.</p>
+                                <p class="card_description">Use of specialized equipment and cleaning solutions to remove dirt, grime, and other debris from the glass and frames of the windows.</p>
                             
                         </div>
                         </article>
+                        <div class="servPriceBox">
+                            <p class="priceLogo">Window cleaning</p>
+                            <p class="priceText">Window cleaning provides professional services according to this prices:</p>
+                            <li>Window Cleaning (Easy access on one side)- <span class="price">$15/window.</span></li>
+                            <li>Window Cleaning (Exterior)- <span class="price">$15/window + window size + equipment.</span></li>
+                        </div>                        </div>
                         </div>
-                        <div class="box">
+                        <div class="box" id="secondBox">
+                            <div class="cardBox">
                         <article class="card">
                             <div class="temporary_text">
                                 <img class="srvImg" src="style/assets/img/gutterSrv.jpg">
@@ -116,10 +149,18 @@
                         <div class="card_content">
                             <span class="card_title">Gutter Cleaning</span>
                                 <span class="card_subtitle">Hover to view more...</span>
-                                <p class="card_description">Lorem ipsum dolor, sit amet  expedita exercitationem recusandae aut dolor tempora aperiam itaque possimus at, cupiditate earum, quae repudiandae aspernatur? Labore minus soluta consequatur placeat.</p>
+                                <p class="card_description">Cleaning and maintenance of gutters on residential and commercial properties. Use of specialized equipment and tools to remove debris and ensure proper water flow.</p>
                             
                         </div>
                         </article>
+                        <div class="servPriceBox">
+                            <p class="priceLogo">Gutter cleaning</p>
+                            <p class="priceText">Gutter cleaning provides professional services according to this prices:</p>
+                            <li>Gutter Cleaning - <span class="price">$5/ft.</span></li>
+                         </div>
+                            </div>
+                            <div class="cardBox">
+
                         <article class="card">
                             <div class="temporary_text">
                                 <img class="srvImg" src="style/assets/img/comServ.jpg">
@@ -132,15 +173,16 @@
                             
                         </div>
                         </article>
+                        <div class="servPriceBox">
+                            <p class="priceLogo">Commercial cleaning</p>
+                            <p class="priceText">Commercial cleaning  services are priced accordingly:</p>
+                            <li>Industrial Vac</li>
+                          </div>                        </div>
                         </div>
                     </div>
                 </div>
 
-                
-                <div id="contactContainer">
-                    <div id="contText"></div>
-
-                </div>
+            
           </div>
 </body>
 

@@ -1,0 +1,167 @@
+/* Services */
+#servicesContainer{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, hsla(231, 85%, 24%, 1) 92%);
+
+}
+
+#servicesTextContainer{
+  display: flex;
+  align-items: end;
+    text-shadow: 1px 0px 1px black;
+    padding-top: 200px;
+box-shadow:  inset 0px 5px black;
+justify-content: start;
+}
+
+#servicesText{
+
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 4em;
+  color: white;
+  border-radius: 0 20px 0 0;
+}
+
+
+
+
+
+/* Service boxes */
+#servicesBigBox{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    background-color: #333;
+
+}
+
+.box{
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+ 
+    position: relative;
+    width: 250px;
+    height: 250px;
+        overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  .temporary_text {
+    font-weight: bold;
+    font-size: 24px;
+    height: 100%;
+  }
+  
+  .card_title {
+    font-weight: bold;
+  }
+  
+  .card_content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+  border: 1px solid;
+    border-top-left-radius: 20px;
+    transform: translateY(120px);
+    background-color: whitesmoke;
+    transition: transform .25s;
+  }
+
+  .cardBox{
+    display: flex;
+    justify-content: space-evenly;
+    width: 679px;
+
+  }
+
+  #secondBox{
+    align-items: end;
+  }
+  
+  .card_content::before {
+    content: '';
+    position: absolute;
+    top: -58px;
+    right: -20px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(-190deg);
+
+    border-radius: 50%;
+  }
+  
+  .card_title {
+    color: #131313;
+    line-height: 15px;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .card_content li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    list-style: none;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .card_subtitle {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .card_description {
+    display: block;
+    font-size: 15px;
+    width: 90%;
+    opacity: 0;
+    transition: opacity .5s;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+  
+
+  .servDesc{
+    color: white;
+    text-align: center;
+  }
+
+  .dot{
+    height: 6px;
+    width: 6px;
+    background-color: green;
+    border-radius: 50%;
+  }
+
+  .card:hover .card_content::before{
+    box-shadow: inset 48px 48px whitesmoke;
+    
+  }
+
+  .card:hover{
+    cursor: none;
+   box-shadow:  5px 5px 5px whitesmoke;;
+   border: 1px solid #333;
+  }
+
+
+  
+  .card:hover .card_content {
+    border: none;
+        transform: translateY(0);
+  }
+  
+  .card:hover .card_description {
+    opacity: 1;
+    transition-delay: .25s;
+  }
