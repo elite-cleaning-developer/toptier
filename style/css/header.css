@@ -183,7 +183,7 @@ height: 600px;
 }
 
 .loader {
-  color: rgb(124, 124, 124);
+  color: white;
   font-family: "Poppins",sans-serif;
   font-weight: 500;
   font-size: 25px;
@@ -192,6 +192,12 @@ height: 600px;
   padding: 10px 10px;
   display: flex;
   border-radius: 8px;
+  width:93%;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.799);
+  border: 1px solid rgba(255, 255, 255, 0.222);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
 }
 
 .loader p{
@@ -207,7 +213,8 @@ height: 600px;
   font-size: 2em;
     display: block;
     height: 100%;
-    color: rgb(20, 17, 95);
+    color: rgb(16, 162, 28);
+    padding: 0 5px 0 5px;
     animation: spin_4991 4s infinite;
   }
   
