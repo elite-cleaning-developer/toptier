@@ -2,27 +2,7 @@
 #servicesContainer{
     display: flex;
     flex-direction: column;
-background: url('../assets/img/back.jpg');
-
-}
-
-#servicesTextContainer{
-  display: flex;
-  align-items: end;
-    text-shadow: 1px -2px 1px black;
-    padding-top: 15px;
-box-shadow:  inset 0px 5px black;
-justify-content: start;
-}
-
-#servicesText{
-
-  padding-left: 10px;
-  padding-right: 10px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 4em;
-  font-weight: 600;
-  color: #fdfdfe;
+    background-image: linear-gradient( 112.1deg, rgba(63,76,119,1) 11.2%,  #202739 11.4%, rgba(63,76,119,1) 70.2% );
 
 }
 
@@ -37,131 +17,83 @@ justify-content: start;
     padding: 60px;
 }
 
+
 .box{
-  height: 300px;
   display: flex;
   justify-content: space-evenly;
   width: 100%;
 }
 
 .card {
+  width: 190px;
+  height: 300px;
+  padding: .8em;
+  background: #f5f5f5;
+  position: relative;
+  overflow: visible;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-radius: 5px;
+ }
  
-    position: relative;
-    width: 250px;
-    height: 250px;
-        overflow: hidden;
-    border-radius: 20px;
-  }
-  
-  .temporary_text {
-    font-weight: bold;
-    font-size: 24px;
-    height: 100%;
-  }
-  
-  .card_title {
-    font-weight: bold;
-  }
-  
-  .card_content {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 20px;
-  border: 1px solid;
-    border-top-left-radius: 20px;
-    transform: translateY(120px);
-    background-color: whitesmoke;
-    transition: transform .25s;
-  }
+ .card-img {
 
-  .cardBox{
-    display: flex;
-    justify-content: space-evenly;
-    width: 679px;
+  border-radius: .5rem;
+  transition: .3s ease;
+ }
 
-  }
-
-  #secondBox{
-    align-items: end;
-  }
-  
-  .card_content::before {
-    content: '';
-    position: absolute;
-    top: -58px;
-    right: -20px;
-    width: 100px;
-    height: 100px;
-    transform: rotate(-190deg);
-
-    border-radius: 50%;
-  }
-  
-  .card_title {
-    color: #131313;
-    line-height: 15px;
-    font-size: large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  .card_content li{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    list-style: none;
-    font-size: 17px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-  
-  .card_subtitle {
-    display: block;
-    font-size: 12px;
-    margin-bottom: 10px;
-  }
-  
-  .card_description {
-    display: block;
-    font-size: 15px;
-    width: 90%;
-    opacity: 0;
-    transition: opacity .5s;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-  }
-  
-
-  .servDesc{
-    color: white;
-    text-align: center;
-  }
-
-  .dot{
-    height: 6px;
-    width: 6px;
-    background-color: green;
-    border-radius: 50%;
-  }
-
-  .card:hover .card_content::before{
-    box-shadow: inset 48px 48px whitesmoke;
-    
-  }
-
-  .card:hover{
-    cursor: none;
-   box-shadow:  5px 5px 5px whitesmoke;;
-   border: 1px solid #333;
-  }
-
-
-  
-  .card:hover .card_content {
-    border: none;
-        transform: translateY(0);
-  }
-  
-  .card:hover .card_description {
-    opacity: 1;
-    transition-delay: .25s;
-  }
+ .servImg{
+  height: 100px;
+  object-fit: cover;
+ }
+ 
+ .card-info {
+  padding-top: 10%;
+ }
+ 
+ svg {
+  width: 20px;
+  height: 20px;
+ }
+ 
+ .card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+ }
+ 
+ /*Text*/
+ .text-title {
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 1.5;
+ }
+ 
+ .text-body {
+  font-size: .9em;
+  padding-bottom: 10px;
+ }
+ 
+ /*Button*/
+ .card-button {
+  border: 1px solid #252525;
+  display: flex;
+  padding: .3em;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: .3s ease-in-out;
+ }
+ 
+ /*Hover*/
+ .card-img:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(63, 226, 98, 0.25) 0px 13px 47px -5px, rgba(13, 182, 21, 0.3) 0px 8px 16px -8px;
+ }
+ 
+ .card-button:hover {
+  border: 1px solid #ffcaa6;
+  background-color: #ffcaa6;
+ }
+ 
