@@ -141,8 +141,8 @@
   width: 100%;
   height: 100px;
   background-color: #33333393;
-  box-shadow: inset 0 0 2000px rgba(14, 14, 14, 0.5);
     align-items: flex-end;
+    justify-content: center;
 }
 
 #servicesTextContainer{
@@ -157,7 +157,7 @@ justify-content: start;
 
   padding-left: 10px;
   padding-right: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Kanit';
   font-size: 4em;
   font-weight: 600;
   color: #fdfdfe;

@@ -20,12 +20,12 @@
 
 .box{
   display: flex;
-  justify-content: space-evenly;
+  gap: 50px;
   width: 100%;
 }
 
 .card {
-  width: 190px;
+  min-width: 190px;
   height: 300px;
   padding: .8em;
   background: #f5f5f5;
@@ -34,11 +34,41 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   border-radius: 5px;
  }
- 
- .card-img {
 
-  border-radius: .5rem;
+ .card-img{
   transition: .3s ease;
+ }
+ 
+ #HomeImg{
+  background: url('../assets/img/houseServ.jpg');
+  border-radius: .5rem;
+  height: 130px;
+  background-position: center;
+  background-size: cover;
+ }
+
+ #windowImg{
+  background: url('../assets/img/windowServ.jpg');
+  border-radius: .5rem;
+  height: 130px;
+  background-position: center;
+  background-size: cover;
+ }
+
+ #gutImg{
+  background: url('../assets/img/gutterSrv.jpg');
+  border-radius: .5rem;
+  height: 130px;
+  background-position: center;
+  background-size: cover;
+ }
+
+ #comImg{
+  background: url('../assets/img/comServ.jpg');
+  border-radius: .5rem;
+  height: 130px;
+  background-position: center;
+  background-size: cover;
  }
 
  .servImg{
