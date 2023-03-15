@@ -1,6 +1,48 @@
 
 @media only screen and (max-width: 734px) {
 
+.loader{
+    flex-direction: column;
+    font-size: medium;
+    height: fit-content;
+}
+
+#line{
+    align-items: center;
+}
+
+#line p{
+    margin: 0;
+}
+
+.words{
+    height: 28px;
+}
+
+#fixedLogo{
+    display: flex;
+    justify-content: center;
+}
+
+#topText{
+    width: 90%;
+}
+
+
+#phoneText{
+display: block;
+font-size: 1.8em;
+}
+
+.words span{
+    padding-bottom: 1px;
+}
+
+
+    #pcText{
+        display: none;
+      }    
+
     #phoneContainer{
         display: none;
     }
