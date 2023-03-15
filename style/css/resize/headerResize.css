@@ -4,5 +4,8 @@
     #phoneContainer{
         display: none;
     }
+    .address{
+        font-size: 0.8em;
+    }
 
 }
