@@ -1,8 +1,17 @@
 
+
 #footer{
     display: flex;
     width: 100%;
     background-color: #333333;
     box-shadow:  inset 0px 5px rgb(14, 190, 81);
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+#footer p{
+    color: beige;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
 }

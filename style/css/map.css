@@ -3,10 +3,12 @@
 #backWhite{
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 600px;
     background: url('../assets/img/whiteback.png');
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-position: center;
 }
 
 #mapCont{
