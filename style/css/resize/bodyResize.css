@@ -15,6 +15,21 @@
     gap: 100px;
 }
 
+#servicesText{
+    font-size: 3em;
+}
+
+.card{
+    min-width: 150px;
+}
+
+#comCard{
+    width: 100px;
+}
+
+#gutCard{
+    width: 100px;
+}
 
 .priceText{
     display: none;
