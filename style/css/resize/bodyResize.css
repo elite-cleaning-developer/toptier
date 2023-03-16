@@ -21,6 +21,8 @@
 
 .card{
     min-width: 150px;
+    max-width: 150px;
+    height: auto;
 }
 
 #comCard{
@@ -36,6 +38,18 @@
 }
 
 .box{
+    flex-direction: row;
     gap: 20px;
 }
+}
+
+@media only screen and (max-width: 1450px) and (min-width: 734px) {
+    .card{
+        width: 190px;
+    }
+
+    .box{
+        flex-direction: column;
+    }
+
 }
