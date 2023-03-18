@@ -15,6 +15,10 @@
     gap: 100px;
 }
 
+#underSlogan{
+    font-size: 1em;
+}
+
 #servicesText{
     font-size: 3em;
 }
