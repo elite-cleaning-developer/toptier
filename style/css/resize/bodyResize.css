@@ -1,4 +1,5 @@
 
+/* Phone Screen Flex */
 @media only screen and (max-width: 734px) {
 
 #servicesBigBox{
@@ -15,9 +16,6 @@
     gap: 100px;
 }
 
-#underSlogan{
-    font-size: 1em;
-}
 
 #servicesText{
     font-size: 3em;
@@ -47,6 +45,9 @@
 }
 }
 
+
+
+/* Tablet Screem Flex */
 @media only screen and (max-width: 1450px) and (min-width: 734px) {
     .card{
         width: 190px;
@@ -57,3 +58,15 @@
     }
 
 }
+
+@media only screen and (max-width: 1130px)
+{
+    #footer{
+        width: 100%;
+    }
+    #mapText{
+        text-align: center;
+    }
+  
+}
+
