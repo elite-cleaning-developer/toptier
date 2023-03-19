@@ -2,10 +2,6 @@
 
 @media only screen and (max-width: 1820px) {
 
-
-#underSlogan{
-  font-size: 1.2em;
-}
   #fixedImg {
        object-fit: cover;
     }
