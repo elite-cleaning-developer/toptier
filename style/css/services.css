@@ -35,6 +35,10 @@
   border-radius: 5px;
  }
 
+ #pruningCard{
+  max-width: 190px;
+ }
+
  .card-img{
   transition: .3s ease;
  }
@@ -65,6 +69,30 @@
 
  #comImg{
   background: url('../assets/img/comServ.jpg');
+  border-radius: .5rem;
+  height: 130px;
+  background-position: center;
+  background-size: cover;
+ }
+
+ #lawnImg{
+  background: url('../assets/img/lawnServ.jpg');
+  border-radius: .5rem;
+  height: 130px;
+  background-position: center;
+  background-size: cover;
+ }
+
+ #treeImg{
+  background: url('../assets/img/treeServ.jpg');
+  border-radius: .5rem;
+  height: 130px;
+  background-position: center;
+  background-size: cover;
+ }
+
+ #pruningImg{
+  background: url('../assets/img/pruningServ.jpg');
   border-radius: .5rem;
   height: 130px;
   background-position: center;
