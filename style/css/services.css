@@ -6,15 +6,21 @@
 
 }
 
+.catalog{
+  font-family: 'Quick-sand', sans-serif;
+  color: white;
+  padding-left: 50px;
+}
 
-
-
+.catalog p{
+  margin-bottom: 0;
+}
 
 /* Service boxes */
 #servicesBigBox{
     display: flex;
     flex-wrap: wrap;
-    padding: 60px;
+    padding: 0 60px 60 px 60px;
 }
 
 

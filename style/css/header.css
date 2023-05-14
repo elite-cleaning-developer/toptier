@@ -247,6 +247,7 @@ height: 600px;
 }
 
 .words {
+  height: calc(100% + 20px);
   overflow: hidden;
 }
 
@@ -255,7 +256,7 @@ height: 600px;
     display: block;
     height: 100%;
     color: rgb(16, 162, 28);
-    padding: 0 5px 0 5px;
+    padding: 5px 5px 5px 5px;
     animation: spin_4991 4s infinite;
   }
   
