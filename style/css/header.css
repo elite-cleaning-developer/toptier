@@ -23,7 +23,10 @@
  
  
  #logoImg{
-     min-height: 130px;
+  position: relative;
+  top: -70px;
+     height: 250px;
+     filter: invert();
  }
  
  #topBarRight{
