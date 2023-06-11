@@ -50,7 +50,7 @@
 
     .priceBox{
         height: 320px;
-        width: 670px;
+        width: 615px;
     }
 
     #leftPirce{
@@ -69,14 +69,48 @@
 
 }
 
-@media only screen and (max-width: 1130px)
+@media only screen and (max-width: 1005px)
 {
+.priceBox{
+    width: fit-content;
+}
+
+#leftPirce{
+    align-items: flex-start;
+
+}
+
+#leftBox{
+    justify-content: flex-start;
+}
+
+    .box{
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+.servPriceBox{
+    gap:100px;
+}
+
     #footer{
         width: 100%;
     }
     #mapText{
         text-align: center;
     }
-  
+  .servPriceBox{
+    flex-wrap: wrap;
+  }
 }
 
+@media only screen and (min-width: 1235px)  {
+
+    .servPriceBox{
+        justify-content: space-between;
+    }
+
+.box{
+    width: 47%;
+}
+}
