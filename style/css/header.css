@@ -176,6 +176,7 @@ justify-content: start;
     background-color: white;
     flex-direction: column;
     width: 100%;
+    background-image: url('../assets/img/cleanFull.jpg');
 }
 
 
@@ -184,23 +185,10 @@ justify-content: start;
   cursor: default;
 border-bottom: 1px solid grey;
 height: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
-
-#fixedImgCont{
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: inherit;
-}
-
-
-#fixedImg{
-  width: inherit;
-  height: 100%;
-  object-fit: fill;
-}
-
-
 
 
 #fixedLogo{
@@ -260,13 +248,13 @@ height: 600px;
     height: 100%;
     color: rgb(16, 162, 28);
     padding: 5px 5px 5px 5px;
-    animation: spin_4991 4s infinite;
+    animation: spin_4991 4s infinite ease;
   }
   
   @keyframes spin_4991 {
     10% {
       -webkit-transform: translateY(-105%);
-      transform: translateY(-125%);
+      transform: translateY(-120%);
     }
   
     25% {
@@ -276,7 +264,7 @@ height: 600px;
   
     35% {
       -webkit-transform: translateY(-205%);
-      transform: translateY(-225%);
+      transform: translateY(-220%);
     }
   
     50% {
@@ -286,7 +274,7 @@ height: 600px;
   
     60% {
       -webkit-transform: translateY(-305%);
-      transform: translateY(-325%);
+      transform: translateY(-320%);
     }
   
     75% {
@@ -296,7 +284,7 @@ height: 600px;
   
     85% {
       -webkit-transform: translateY(-405%);
-      transform: translateY(-425%);
+      transform: translateY(-420%);
     }
   
     100% {
