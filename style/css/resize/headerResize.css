@@ -3,7 +3,7 @@
 
 .loader{
     flex-direction: column;
-    font-size: small;
+    font-size: .79em;
     height: fit-content;
 }
 
