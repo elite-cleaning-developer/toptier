@@ -21,6 +21,8 @@
 
 .card {
   min-width: 190px;
+  max-width: 190px;
+
   height: 300px;
   padding: .8em;
   background: #f5f5f5;
