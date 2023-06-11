@@ -9,12 +9,7 @@
 #servicesContainer{
     gap: 60px;
 }
-.servPriceBox
-{
-    flex-direction: column;
-    margin-left: 20px;
-    gap: 100px;
-}
+
 
 
 #servicesText{
@@ -27,13 +22,6 @@
     height: auto;
 }
 
-#comCard{
-    width: 100px;
-}
-
-#gutCard{
-    width: 100px;
-}
 
 .priceText{
     display: none;
@@ -71,6 +59,8 @@
 
 @media only screen and (max-width: 1005px)
 {
+
+
 .priceBox{
     width: fit-content;
 }
@@ -86,7 +76,7 @@
 
     .box{
         flex-wrap: nowrap;
-        gap: 10px;
+        gap: 20px;
     }
 
 .servPriceBox{
