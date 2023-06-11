@@ -39,22 +39,32 @@
     display: none;
 }
 
-.box{
-    flex-direction: row;
-    gap: 20px;
-}
+
+
 }
 
 
 
 /* Tablet Screem Flex */
-@media only screen and (max-width: 1450px) and (min-width: 734px) {
-    .card{
-        width: 190px;
+@media only screen and (max-width: 1235px)  {
+
+    .priceBox{
+        height: 320px;
+        width: 670px;
+    }
+
+    #leftPirce{
+        align-items: center;
+
     }
 
     .box{
-        flex-direction: column;
+       flex-wrap: wrap;
+       gap: 0;
+    }
+
+    #leftBox{
+        justify-content: center;
     }
 
 }
