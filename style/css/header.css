@@ -9,7 +9,7 @@
       width: 100%;
       background-color: #181818;
       border-bottom: 4px solid rgb(255, 255, 255);
-     justify-content: center;
+     justify-content: start;
      max-height: 100px;
   }
   
@@ -35,7 +35,7 @@
      align-items: center;
      display: flex;
      justify-content: end;
-     width: 80%;
+     width: 100%;
  }
  
  #phoneContainer{
