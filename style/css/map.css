@@ -67,11 +67,16 @@
   }
 
   #callCont{
-    color: white;
-    font-family: 'Kanit', sans-serif;
-    text-align: center;
     width: 300px;
     padding: 20px 10px 20px 10px;
     background-color: red;
+    text-align: center;
+
     border-radius: 150px;
+  }
+
+  #callCont a{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
   }
