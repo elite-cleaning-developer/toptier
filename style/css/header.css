@@ -177,6 +177,7 @@ justify-content: start;
     flex-direction: column;
     width: 100%;
     background-image: url('../assets/img/cleanFull.jpg');
+    background-size: cover;
 }
 
 
@@ -254,22 +255,22 @@ align-items: center;
   @keyframes spin_4991 {
     10% {
       -webkit-transform: translateY(-105%);
-      transform: translateY(-120%);
+      transform: translateY(-115%);
     }
   
     25% {
       -webkit-transform: translateY(-100%);
-      transform: translateY(-120%);
+      transform: translateY(-115%);
     }
   
     35% {
       -webkit-transform: translateY(-205%);
-      transform: translateY(-220%);
+      transform: translateY(-212%);
     }
   
     50% {
       -webkit-transform: translateY(-200%);
-      transform: translateY(-220%);
+      transform: translateY(-212%);
     }
   
     60% {
@@ -284,12 +285,12 @@ align-items: center;
   
     85% {
       -webkit-transform: translateY(-405%);
-      transform: translateY(-420%);
+      transform: translateY(-413%);
     }
   
     100% {
       -webkit-transform: translateY(-400%);
-      transform: translateY(-420%);
+      transform: translateY(-413%);
     }
   }
   

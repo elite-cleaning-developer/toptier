@@ -1,6 +1,10 @@
 
 /* Phone Screen Flex */
-@media only screen and (max-width: 734px) {
+@media only screen and (max-width: 1000px) {
+
+.box{
+    gap: 0;
+}
 
 #servicesBigBox{
     padding: 15px;
@@ -23,7 +27,8 @@
     min-width: 150px;
     max-width: 150px;
     max-height: 300px;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
+    margin-right: 20px;
 }
 
 #comCard{
@@ -38,7 +43,13 @@
     display: none;
 }
 
+#fixedLogo{
+    margin-left: 0;
+}
 
+#underSlogan{
+    width: 90%;
+}
 
 }
 
@@ -56,10 +67,11 @@
 
     }
 
-    .box{
-       flex-wrap: wrap;
-       gap: 0;
-    }
+   
+        .box{
+            flex-wrap: wrap;
+        }
+    
 
     #leftBox{
         justify-content: center;
@@ -67,9 +79,15 @@
 
 }
 
+
+
 @media only screen and (max-width: 1005px)
 {
 
+    .box{
+        flex-direction: column;
+
+    }
 
 .priceBox{
     width: fit-content;
@@ -84,14 +102,8 @@
     justify-content: flex-start;
 }
 
-    .box{
-        flex-wrap: nowrap;
-        gap: 20px;
-    }
 
-.servPriceBox{
-    gap:35px;
-}
+
 
     #footer{
         width: 100%;
