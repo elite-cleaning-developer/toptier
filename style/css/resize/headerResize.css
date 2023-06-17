@@ -45,7 +45,8 @@ font-size: 1.8em;
 
 }
 
-@media only screen and (max-width: 1130px)and (min-width: 734px) 
+
+@media only screen and (min-width: 1630px)
 {
     #topText{
         width: 70%;
