@@ -21,6 +21,15 @@
     align-items: center;
 }
 
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer a:hover{
+    text-decoration: underline;
+}
+
 #footer p{
     color: beige;
     font-family: 'Roboto', sans-serif;

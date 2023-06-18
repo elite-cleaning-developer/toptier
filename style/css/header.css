@@ -3,7 +3,9 @@
     display: flex;
      justify-content: end;
  }
- 
+
+
+
  #fixBar{
      display: flex;
       width: 100%;
@@ -13,6 +15,15 @@
      max-height: 100px;
   }
   
+#hmLnk{
+  z-index: 11;
+  top: 30px;
+  left: 30px;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+}
+
  
  #topBarPanel{
      display: flex;
