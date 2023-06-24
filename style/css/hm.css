@@ -34,6 +34,7 @@ body{
     display: flex;
     align-items: center;
     padding-left: 30px;
+    margin-bottom: 0;
   }
   
   .title::before,.title::after {
@@ -58,8 +59,11 @@ body{
     animation: pulse 1s linear infinite;
   }
   
+.message{
+  color: red;
+}
+
   .message, .signin {
-    color: rgba(88, 87, 87, 0.822);
     font-size: 14px;
   }
   
