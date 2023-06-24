@@ -45,6 +45,13 @@ font-size: 1.8em;
     justify-content: space-around;
 }
 
+#topBarLeft{
+    width: 45%;
+}
+
+#topBarPanel{
+    width: 100%;
+}
 
     #phoneContainer{
         width: fit-content;
