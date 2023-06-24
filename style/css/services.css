@@ -72,6 +72,22 @@
   background-size: cover;
  }
 
+ #landImg{
+  background: url('../assets/img/landscapping.jpg');
+  border-radius: .5rem;
+  height: 130px;
+  background-position: center;
+  background-size: cover;
+ }
+
+ #plowImg{
+  background: url('../assets/img/plowImg.jpg');
+  border-radius: .5rem;
+  height: 130px;
+  background-position: center;
+  background-size: cover;
+ }
+
  #lawnImg{
   background: url('../assets/img/lawnServ.jpg');
   border-radius: .5rem;

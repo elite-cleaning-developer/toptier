@@ -25,6 +25,11 @@
 }
 
 
+#logoImg{
+    left: -30px;
+
+}
+
 
 #phoneText{
 display: block;
@@ -35,9 +40,15 @@ font-size: 1.8em;
     padding-bottom: 1px;
 }
 
+#topBarRight{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 
     #phoneContainer{
-        display: none;
+        width: fit-content;
+        gap:0;
     }
     .address{
         font-size: 0.8em;
