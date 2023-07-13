@@ -80,6 +80,15 @@
   background-size: cover;
  }
 
+
+#handyImg{
+  background: url('../assets/img/handyImg.jpg');
+  border-radius: .5rem;
+  height: 130px;
+  background-position: center;
+  background-size: cover;
+}
+
  #plowImg{
   background: url('../assets/img/plowImg.jpg');
   border-radius: .5rem;
