@@ -56,6 +56,8 @@ font-size: 1.8em;
     #phoneContainer{
         width: fit-content;
         gap:0;
+        position: relative;
+        top: -9px;
     }
     .address{
         font-size: 0.8em;
