@@ -75,8 +75,12 @@
     border-radius: 150px;
   }
 
-  #callCont a{
+  #callCont{
     color: white;
     font-family: 'Kanit', sans-serif;
+  }
+
+  a{
     text-decoration: none;
+
   }
